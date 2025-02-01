@@ -3,84 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Budget - Manage Your Finances</title>
-
-    <!-- This is an SEO Change -->
-    <meta name="description" content="Easily track and manage your personal budget with our free budgeting app. Gain financial control and make informed spending decisions.">
-
-    <!-- This is an SEO Change -->
-    <meta name="keywords" content="budgeting app, personal finance, expense tracking, money management, financial planning, savings">
-
-    <!-- This is an SEO Change -->
-    <meta name="author" content="Fabio Nolasco">
-
+    <title>Personal Budget</title>
+    <meta name="description" content="A free personal budger app">
+    <meta name="keywords" content="app free budget finance">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
 
-    <!-- This is an A11y Change -->
-    <a href="#main" class="skip">Skip to main content</a>
+<a href="#main" class="skip">Skip to content</a>
 
-    <!-- This is a Semantic HTML Change -->
-    <header>
-        <h1>Personal Budget Tracker</h1>
-    </header>
-
-    <!-- This is a Semantic HTML Change -->
     <nav>
         <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/about.html">About</a></li>
             <li><a href="/login.html">Login</a></li>
-            <li><a href="https://google.com" rel="noopener noreferrer">Google</a></li>
+            <li><a href="https://google.com">Google</a></li>
         </ul>
     </nav>
 
-    <section class="hero">
-        <h2>Manage Your Budget Easily</h2>
-        <p>Track your expenses and savings effectively with our budgeting tool.</p>
-    </section>
+    <div class="hero">
+        <h1>Personal Budget</h1>
+        <h2>A personal-budget management app</h2>
+    </div>
 
     <main class="center" id="main">
+
         <div class="page-area">
 
-            <!-- This is a Semantic HTML Change -->
-            <section>
-                <article>
-                    <h2>Stay on track</h2>
-                    <p>Do you know where you are spending your money? Tracking expenses helps you save better.</p>
-                </article>
-
-                <article>
-                    <h2>Alerts</h2>
-                    <p>Receive alerts when you exceed your budget limit to keep your spending under control.</p>
-                </article>
-
-                <article>
-                    <h2>Results</h2>
-                    <p>Financial planning leads to better savings, reduced debt, and a stress-free life.</p>
-                </article>
-
-                <article>
-                    <h2>Free</h2>
-                    <p>Our budget tracking app is 100% free and secure. Your data stays with you.</p>
-                </article>
-            </section>
-
-            <!-- This is an A11y Change -->
-            <section aria-labelledby="chart-title">
-                <h2 id="chart-title">Budget Breakdown</h2>
-                <canvas id="myChart" width="400" height="400" role="img" aria-label="Pie chart representing budget allocation"></canvas>
-            </section>
+            <article>
+                <h1>Stay on track</h1>
+                <p>
+                    Do you know where you are spending your money? If you really stop to track it down,
+                    you would get surprised! Proper budget management depends on real data... and this
+                    app will help you with that!
+                </p>
+            </article>
+    
+            <article>
+                <h1>Alerts</h1>
+                <p>
+                    What if your clothing budget ended? You will get an alert. The goal is to never go over the budget.
+                </p>
+            </article>
+    
+            <article>
+                <h1>Results</h1>
+                <p>
+                    People who stick to a financial plan, budgeting every expense, get out of debt faster!
+                    Also, they to live happier lives... since they expend without guilt or fear... 
+                    because they know it is all good and accounted for.
+                </p>
+            </article>
+    
+            <article>
+                <h1>Free</h1>
+                <p>
+                    This app is free!!! And you are the only one holding your data!
+                </p>
+            </article>
+    
+            <article>
+                <h1>Stay on track</h1>
+                <p>
+                    Do you know where you are spending your money? If you really stop to track it down,
+                    you would get surprised! Proper budget management depends on real data... and this
+                    app will help you with that!
+                </p>
+            </article>
+    
+            <article>
+                <h1>Alerts</h1>
+                <p>
+                    What if your clothing budget ended? You will get an alert. The goal is to never go over the budget.
+                </p>
+            </article>
+    
+            <article>
+                <h1>Results</h1>
+                <p>
+                    People who stick to a financial plan, budgeting every expense, get out of debt faster!
+                    Also, they to live happier lives... since they expend without guilt or fear... 
+                    because they know it is all good and accounted for.
+                </p>
+            </article>
+    
+            <article>
+                <h1>Chart</h1>
+                <p>
+                    <canvas id="myChart" width="400" height="400"></canvas>
+                </p>
+            </article>
 
         </div>
+
     </main>
 
-    <!-- This is a Semantic HTML Change -->
     <footer class="bottom">
         <div class="center">
-            <p>&copy; 2024 Fab Nolasco. All rights reserved.</p>
+            All rights reserved &copy; Fabio Nolasco
         </div>
     </footer>
 
@@ -89,19 +110,19 @@
 
     <script>
         var dataSource = {
-            datasets: [
-                {
-                    data: [],
-                    backgroundColor: [
-                        '#ffcd56',
-                        '#ff6384',
-                        '#36a2eb',
-                        '#fd6b19',
-                    ]
-                }
-            ],
-            labels: []
-        };
+                datasets: [
+                    {
+                        data: [],
+                        backgroundColor: [
+                            '#ffcd56',
+                            '#ff6384',
+                            '#36a2eb',
+                            '#fd6b19',
+                        ]
+                    }
+                ],
+                labels: []
+            };
 
         function createChart() {
             var ctx = document.getElementById('myChart').getContext('2d');
@@ -127,3 +148,4 @@
 
 </body>
 </html>
+this is current index.html we have to make changes here
